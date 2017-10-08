@@ -1,0 +1,164 @@
+body{
+    background-color: #ffffff;
+    background-image: url('../img/bg.jpg');
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header{
+    font:100px Calibri; 
+    text-align: center;
+    margin: 4% auto 8%;
+    font-weight: bold;
+}
+
+.btn{
+    float:left;
+    width: 50%;
+    text-align: center;
+    min-height: 250px;
+}
+
+.btn span{
+    font-style: italic;
+    font-weight:normal;
+    font-size:35px;
+}
+
+button{
+    text-decoration:none; 
+    padding:11px 30px;
+    text-align: left;
+    border:solid 1px #004F72; 
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px; 
+    border-radius: 35px; 
+    font:40px Calibri; 
+    font-weight:bold; 
+    color:#000000; 
+    background:#ff0000; 
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff; 
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  }
+
+.button:hover{
+    text-decoration:none; 
+    padding:11px 30px;
+    text-align: left;
+    border:solid 2px #FFFFFF; 
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px; 
+    border-radius: 35px; 
+    font:40px Calibri; 
+    font-weight:bold; 
+    color:#000000; 
+    background:#ff0000; 
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff; 
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  }
+
+.vbr{
+    font:50px Calibri;
+    float:right;
+    font-weight:bold;
+    width: 50%;
+    min-height: 250px;
+	text-align: center;
+}
+
+.vbr span{
+    font-weight:normal;
+    font-size:20px;
+}
+
+.vbr p{
+    margin: 0 auto;
+}
+    
+.img{
+    float:left;
+    width: 50%;
+    text-align: center;
+    min-height: 350px;
+}
+
+.inf{
+    float:right;
+    width: 50%;
+    font:20px Calibri;
+    font-weight: bold;
+    min-height: 350px;
+}
+
+.v1{
+    float:left;
+    width: 50%;
+    text-align: center;
+    height: 500px;
+}
+
+.map{
+    font:20px Calibri;
+    font-weight: bold;
+    text-align: center;
+    float:right;
+    width: 50%;
+    min-height: 500px;
+}
+
+.v2{
+    float:left;
+    width: 50%;
+    text-align: center;
+    height: 500px;
+}
+
+.price{
+    padding-top: 50px;
+    float:right;
+    width: 50%;
+    font:20px Calibri;
+    font-weight: bold;
+    min-height: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+    .btn{
+        clear: both;
+    }
+	
+	.vbr{
+		clear: both;
+		float: left;
+	}
+	
+	.img{
+		clear: both;
+	}
+	
+	.inf{
+		clear: both;
+		float: left;
+	}
+	
+	.v1{
+		clear: both;
+	}
+	
+	.map{
+		clear: both;
+		float: left;
+	}
+	
+	.v2{
+		clear: both;
+	}
+	
+	.price{
+		clear: both;
+		float: left;
+	}
+}
